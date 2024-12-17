@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .form-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], 
+        input[type="email"],
+        input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .signature-area {
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Employee Information Form</h2>
+        
+        <div class="form-group">
+            <label>Employee ID:</label>
+            <input type="text" value="EMP-2024-001">
+        </div>
+
+        <div class="form-group">
+            <label>Full Name:</label>
+            <input type="text" value="John Smith">
+        </div>
+
+        <div class="form-group">
+            <label>Email Address:</label>
+            <input type="email" value="john.smith@company.com">
+        </div>
+
+        <div class="form-group">
+            <label>Department:</label>
+            <input type="text" value="Engineering">
+        </div>
+
+        <div class="form-group">
+            <label>Start Date:</label>
+            <input type="date" value="2024-01-15">
+        </div>
+
+        <div class="form-group">
+            <label>Manager Name:</label>
+            <input type="text" value="Sarah Johnson">
+        </div>
+
+        <div class="signature-area">
+            <div class="form-group">
+                <label>Employee Signature:</label>
+                <input type="text" value="J. Smith">
+            </div>
+
+            <div class="form-group">
+                <label>Date Signed:</label>
+                <input type="date" value="2024-01-15">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
